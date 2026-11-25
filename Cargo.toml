@@ -5,8 +5,8 @@ authors = ["Tom Blanchard tomblanchard312@gmail.com"]
 edition = "2021"
 description = "A comprehensive Rust ORM generator with schema visualization, real-time monitoring, and multiple output formats"
 license = "MIT"
-repository = "https://github.com/tomblanchard312/rust_orm_gen"
-homepage = "https://github.com/tomblanchard312/rust_orm_gen"
+repository = "https://github.com/TavruOS/rust_orm_gen"
+homepage = "https://github.com/TavruOS/rust_orm_gen"
 readme = "Readme.md"
 
 [dependencies]
