@@ -1,20 +1,20 @@
 [package]
 name = "rust_orm_gen"
-version = "0.2.0"
+version = "0.3.1"
 authors = ["Tom Blanchard tomblanchard312@gmail.com"]
 edition = "2021"
 description = "A comprehensive Rust ORM generator with schema visualization, real-time monitoring, and multiple output formats"
 license = "MIT"
-repository = "https://github.com/tomblanchard312/rust_orm_gen"
-homepage = "https://github.com/tomblanchard312/rust_orm_gen"
+repository = "https://github.com/TavruOS/rust_orm_gen"
+homepage = "https://github.com/TavruOS/rust_orm_gen"
 readme = "Readme.md"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
-tokio-postgres = "0.7"
+tokio-postgres = "0.7.18"
 dotenv = "0.15"
 log = "0.4"
-env_logger = "0.9"
+env_logger = "0.11"
 async-trait = "0.1.50"
 chrono = { version = "0.4", features = ["serde"] }
 convert_case = "0.4"
